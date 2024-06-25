@@ -1,0 +1,114 @@
+<style>
+    /* Add these styles to your existing styles.css file */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        background-color: #3498db;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav {
+        background-color: #2c3e50;
+        color: #ecf0f1;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+
+    section {
+        padding: 40px;
+    }
+
+    #slider {
+        position: relative;
+        overflow: hidden;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .slider-container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+        min-width: 100%;
+    }
+
+    .slide img {
+        width: 100%;
+        height: auto;
+    }
+
+    #projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .project {
+        margin-bottom: 40px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .project h3 {
+        color: #3498db;
+    }
+
+    .project p {
+        color: #555;
+    }
+
+    .project a {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 15px;
+        background-color: #3498db;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .project a:hover {
+        background-color: #2980b9;
+    }
+
+    #contact {
+        background-color: #ecf0f1;
+    }
+
+    footer {
+        background-color: #34495e;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
